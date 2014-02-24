@@ -1,0 +1,21 @@
+{
+  "name": "coffeescript-jade-chrome-plugin-boilerplate",
+  "description": "Boilerplate for using a chrome plugin to change the look and feel of a website.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://aharon.tv/*"],
+      "css": ["css/fouc.css"],
+      "js": ["libs/jquery-1.10.1.min.js", "build/app.js"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+      "css/fouc.css",
+      "css/style.css",
+      "images/aharon.jpg"
+  ],
+  "author": "aharon.wasserman@gmail.com",
+  "homepage_url": "http://aharon.tv"
+}

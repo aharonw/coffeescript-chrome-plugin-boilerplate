@@ -1,0 +1,21 @@
+#at-the-top {
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  background-color: #000;
+  padding: 5px;
+  height: 20px;
+}
+#at-the-top #hello {
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+#at-the-top #aharon-picture {
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+#at-the-top #aharon-picture img {
+  width: 100%;
+}
