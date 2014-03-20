@@ -12,6 +12,12 @@ Optional use of stylus for generating CSS files as well.
 $ npm install
 ```
 
+### Install Watchify + Stylus (globally)
+```shell
+$ npm install -g watchify
+$ npm install -g stylus
+```
+
 ### Compile js
 ```shell
 $ watchify -t coffeeify -t jadeify src/app.coffee -o build/app.js -v
